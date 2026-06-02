@@ -548,5 +548,225 @@
       "Un sistema basado en lógica difusa sin componente de aprendizaje automático"
     ],
     "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál es el tipo de aprendizaje automático que utiliza el módulo de recomendaciones del sistema, según la clasificación de ML aplicada en el ámbito sanitario?",
+    "options": [
+      "Aprendizaje no supervisado mediante clustering",
+      "Aprendizaje por refuerzo con retroalimentación de recompensas",
+      "Aprendizaje supervisado que entrena con datos etiquetados para clasificación",
+      "Aprendizaje semi-supervisado combinando datos etiquetados y no etiquetados",
+      "Aprendizaje profundo con redes neuronales convolucionales"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuántos nodos internos y cuántas hojas tiene el árbol de decisión implementado en el módulo de recomendaciones?",
+    "options": [
+      "5 nodos internos y 3 hojas",
+      "8 nodos internos y 5 hojas",
+      "12 nodos internos y 7 hojas",
+      "15 nodos internos y 10 hojas",
+      "20 nodos internos y 12 hojas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuántos niveles de profundidad tiene la estructura jerárquica del árbol de decisión del sistema?",
+    "options": [
+      "1 nivel",
+      "2 niveles",
+      "3 niveles",
+      "5 niveles",
+      "7 niveles"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es la recomendación de horario que genera el árbol de decisión cuando el nivel de urgencia es mayor o igual a 8 y la disponibilidad es igual o mayor a 5?",
+    "options": [
+      "Miércoles a las 11:00 a.m.",
+      "Viernes a las 3:00 p.m.",
+      "Lunes a las 8:00 a.m.",
+      "Martes a las 9:00 a.m.",
+      "Jueves a las 2:00 p.m."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es la recomendación generada por el árbol de decisión cuando la urgencia se encuentra entre 5 y 7 y la disponibilidad entre 4 y 7?",
+    "options": [
+      "Lunes a las 8:00 a.m.",
+      "Miércoles a las 11:00 a.m.",
+      "Viernes a las 3:00 p.m.",
+      "Jueves a las 10:00 a.m.",
+      "Martes a las 4:00 p.m."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué recomendación produce el árbol de decisión para todos los casos que no cumplan las condiciones de urgencia y disponibilidad altas o intermedias?",
+    "options": [
+      "Lunes a las 8:00 a.m.",
+      "Miércoles a las 11:00 a.m.",
+      "Sábado a las 9:00 a.m.",
+      "Viernes a las 3:00 p.m.",
+      "Jueves a las 2:00 p.m."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "text": "¿Cómo fue diseñado el árbol de decisión del módulo de recomendaciones, a diferencia de los enfoques de aprendizaje supervisado tradicional?",
+    "options": [
+      "Fue entrenado con todos los datos históricos del consultorio desde el inicio",
+      "Fue generado automáticamente por un algoritmo genético evolutivo",
+      "Fue diseñado de forma heurística para facilitar su comprensión y permitir ajuste futuro",
+      "Fue copiado directamente del dataset externo de Kaggle",
+      "Fue construido mediante validación cruzada de 10 pliegues desde el principio"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es la ventaja principal que ofrecen los árboles de decisión respecto a modelos como las redes neuronales profundas en el contexto de este sistema?",
+    "options": [
+      "Mayor velocidad de procesamiento en GPU",
+      "Capacidad de analizar imágenes médicas directamente",
+      "Interpretabilidad: generan reglas explícitas del tipo 'si... entonces...' comprensibles para el personal no técnico",
+      "Mejor precisión en conjuntos de datos con más de un millón de registros",
+      "Compatibilidad nativa con bases de datos NoSQL"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué técnica se aplicó al árbol de decisión para evitar el sobreajuste considerando la variabilidad de los datos clínicos y administrativos?",
+    "options": [
+      "Aumento de datos (data augmentation) mediante transformaciones sintéticas",
+      "Poda de ramas y validación cruzada k-fold",
+      "Regularización L1 y L2",
+      "Dropout y batch normalization",
+      "Submuestreo aleatorio del conjunto de entrenamiento"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué algoritmos adicionales se integraron en la fase de mejoras del modelo para capturar relaciones no lineales y mejorar la generalización?",
+    "options": [
+      "K-Nearest Neighbors y Naive Bayes",
+      "Redes neuronales recurrentes (LSTM) y transformers",
+      "Random Forest y Gradient Boosting Machines",
+      "Análisis discriminante lineal y PCA",
+      "Algoritmos genéticos y programación evolutiva"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué modelo explicable fue incorporado adicionalmente en la fase de mejoras para identificar la dirección e intensidad de los factores que influyen en la recomendación?",
+    "options": [
+      "Red neuronal convolucional",
+      "Regresión logística multiclase",
+      "Máquina de Boltzmann restringida",
+      "Modelo oculto de Markov",
+      "Análisis de componentes independientes"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué modelo de márgenes máximos fue también evaluado en la fase de mejoras por su capacidad de discriminar patrones con atributos dominantes?",
+    "options": [
+      "K-Means Clustering",
+      "Random Forest",
+      "Support Vector Machine (SVM)",
+      "Gradient Boosting",
+      "Análisis de regresión múltiple"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cómo fue construida la variable 'Nivel de Urgencia' que alimenta el modelo de recomendaciones?",
+    "options": [
+      "Fue asignada manualmente por el odontólogo en cada consulta",
+      "Fue tomada directamente del campo de diagnóstico clínico en formato numérico",
+      "Se construyó mediante análisis léxico del campo 'motivo de consulta' con diccionarios de palabras clave que asignan un puntaje acumulativo",
+      "Fue calculada automáticamente en función del tiempo transcurrido desde la última cita",
+      "Se obtuvo de la edad y condiciones crónicas registradas del paciente"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué representa la variable 'Disponibilidad Operativa' dentro del modelo de recomendaciones?",
+    "options": [
+      "La cantidad de horas libres del paciente durante la semana",
+      "El número de odontólogos disponibles en el consultorio en un día dado",
+      "Un índice de presión horaria que clasifica cada franja como baja, media o alta según ocupación y flujo histórico de demanda",
+      "El porcentaje de citas canceladas en los últimos 30 días",
+      "La distancia geográfica del paciente al consultorio"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es el principio de la XAI (Inteligencia Artificial Explicable) que justifica el uso de árboles de decisión en entornos sanitarios según la literatura citada en la tesis (Tjoa & Guan, 2021)?",
+    "options": [
+      "Los modelos explicables procesan datos más rápido que los modelos de caja negra",
+      "Los modelos interpretables son preferibles por los requisitos éticos, operativos y de confianza del personal de salud",
+      "Los árboles de decisión son los únicos modelos que pueden ser auditados por reguladores de salud",
+      "La XAI garantiza que el modelo no discrimine por factores socioeconómicos",
+      "Los modelos explicables siempre tienen mayor precisión que los modelos complejos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué riesgo ético identifican Samorani et al. (2022) respecto al uso de IA en la programación de citas médicas, citado en la tesis?",
+    "options": [
+      "El riesgo de que el sistema rechace pacientes con enfermedades crónicas",
+      "La posibilidad de que los sistemas reproduzcan sesgos inherentes en los datos (raciales o socioeconómicos) generando disparidades en la calidad del servicio",
+      "El peligro de que la IA reemplace completamente al personal médico",
+      "El riesgo de que el sistema almacene datos clínicos sin cifrado",
+      "La probabilidad de que el sistema genere diagnósticos incorrectos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué técnica de validación ampliamente utilizada en investigaciones recientes se aplicó para garantizar la fiabilidad del sistema y evitar sobreajuste?",
+    "options": [
+      "Validación holdout de un solo 80/20",
+      "Validación cruzada k-fold",
+      "Bootstrap con 1000 iteraciones",
+      "Validación por fecha temporal (time-series split)",
+      "Leave-one-out cross-validation"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué describe correctamente el proceso de homologación conceptual realizado para integrar el dataset externo de Kaggle con las variables del modelo local?",
+    "options": [
+      "Se tradujeron los textos clínicos del portugués al español usando un modelo de lenguaje",
+      "Variables como Edad, Hipertensión, Diabetes y Alcoholismo fueron consolidadas en una variable 'Nivel de Riesgo' equivalente al índice de urgencia local",
+      "Los datos de Kaggle fueron reemplazados por datos simulados del consultorio para hacerlos compatibles",
+      "Se entrenó un modelo separado para el dataset externo sin relacionarlo con el modelo local",
+      "Los datos de Kaggle fueron usados únicamente para calcular la media y desviación estándar de normalización"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué resultado observado en la comparación de fronteras de decisión entre datos locales y el dataset de Kaggle demuestra la robustez del modelo?",
+    "options": [
+      "El modelo presentó colapso de clasificación al aplicarse al dataset externo, lo que confirmó su especialización local",
+      "Las tres zonas de prioridad desaparecieron en la validación externa, demostrando que el modelo es dependiente del contexto",
+      "El modelo conservó la separación entre clases baja y alta urgencia en el dataset externo sin colapsos de clasificación ni solapamientos críticos",
+      "La frontera de decisión del dataset externo fue idéntica a la local, confirmando que ambos datasets son equivalentes",
+      "El modelo mostró mayor precisión con el dataset de Kaggle que con los datos locales"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿En qué Sprint del proyecto SCRUM se integró específicamente el módulo de Inteligencia Artificial con el procesamiento del texto clínico y la generación de recomendaciones de prioridad?",
+    "options": [
+      "Sprint 1 (1-15 de marzo)",
+      "Sprint 2 (16-31 de marzo)",
+      "Sprint 3 (1-15 de abril)",
+      "Sprint 4 (16-30 de abril)",
+      "En todos los sprints de forma distribuida"
+    ],
+    "correctAnswer": 2
   }
 ]
