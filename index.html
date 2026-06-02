@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Dinámico</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div id="app" class="bg-white rounded-xl shadow-lg p-8 max-w-2xl w-full">
+        <h1 class="text-3xl font-bold text-center text-indigo-700 mb-8">
+            Quiz de Preguntas Aleatorias
+        </h1>
+
+        <div v-if="currentQuestion" class="space-y-6">
+            <div class="text-xl font-semibold text-gray-800 text-center">
+                {{ currentQuestion.text }}
+            </div>
+
+            <div class="space-y-3">
+                <button
+                    v-for="(option, index) in currentQuestion.options"
+                    :key="index"
+                    @click="selectAnswer(index)"
+                    :disabled="answerSelected !== null"
+                    class="option-button"
+                    :class="getOptionClass(index)"
+                >
+                    <span class="font-medium text-gray-700">
+                        {{ String.fromCharCode(65 + index) }}) {{ option }}
+                    </span>
+
+                    <span 
+                        v-if="answerSelected !== null && currentQuestion.correctAnswer === index" 
+                        class="ml-2 text-green-600"
+                    >
+                        ✅
+                    </span>
+                </button>
+            </div>
+
+            <div v-if="answerSelected !== null" class="text-center">
+                <p 
+                    class="text-lg font-medium mb-4" 
+                    :class="isCorrect ? 'text-green-600' : 'text-red-600'"
+                >
+                    {{ isCorrect ? '¡Correcto!' : 'Respuesta incorrecta' }}
+                </p>
+
+                <button @click="loadNewQuestion" class="next-button">
+                    Siguiente Pregunta
+                </button>
+            </div>
+        </div>
+
+        <div v-else class="text-center text-gray-500">
+            <p>Cargando preguntas...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

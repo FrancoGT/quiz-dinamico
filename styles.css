@@ -1,0 +1,267 @@
+/* Animaciones globales */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-8px);
+    }
+    75% {
+        transform: translateX(8px);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+    }
+}
+
+@keyframes errorPulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+    }
+}
+
+/* Botones de opciones */
+.option-button {
+    width: 100%;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    border: 2px solid #d1d5db;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+    font-size: 1rem;
+    background: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efecto de ondulación en hover */
+.option-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(79, 70, 229, 0.1);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.option-button:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.option-button:hover {
+    background-color: #f0f4ff;
+    border-color: #a5b4fc;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(79, 70, 229, 0.2);
+}
+
+.option-button:active {
+    transform: translateY(0);
+}
+
+.option-button:disabled {
+    cursor: not-allowed;
+}
+
+.option-button:disabled:hover {
+    transform: translateY(0);
+}
+
+.correct-answer {
+    border-color: #22c55e;
+    background-color: #f0fdf4;
+    animation: glowPulse 2s infinite, fadeInUp 0.5s ease;
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.3);
+}
+
+.correct-answer::before {
+    display: none;
+}
+
+.wrong-answer {
+    border-color: #ef4444;
+    background-color: #fef2f2;
+    animation: shake 0.5s ease, errorPulse 2s infinite;
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+}
+
+.wrong-answer::before {
+    display: none;
+}
+
+.default-answer {
+    border-color: #d1d5db;
+    animation: fadeInUp 0.4s ease;
+}
+
+/* Botón siguiente */
+.next-button {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    border-radius: 0.75rem;
+    border: none;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    overflow: hidden;
+    animation: scaleIn 0.4s ease;
+}
+
+.next-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: left 0.5s ease;
+}
+
+.next-button:hover::before {
+    left: 100%;
+}
+
+.next-button:hover {
+    background: linear-gradient(135deg, #3730a3 0%, #6d28d9 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(79, 70, 229, 0.4);
+}
+
+.next-button:active {
+    transform: translateY(-1px);
+}
+
+/* Textos con animaciones */
+.question-text {
+    animation: slideInDown 0.5s ease;
+}
+
+.result-message {
+    animation: scaleIn 0.4s ease;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.result-message.correct {
+    color: #22c55e;
+}
+
+.result-message.incorrect {
+    color: #ef4444;
+}
+
+/* Contenedor principal */
+.quiz-container {
+    animation: fadeInUp 0.6s ease;
+}
+
+.options-container {
+    animation: fadeInUp 0.5s ease;
+}
+
+.options-container > button:nth-child(1) {
+    animation: fadeInUp 0.4s ease 0.05s both;
+}
+
+.options-container > button:nth-child(2) {
+    animation: fadeInUp 0.4s ease 0.1s both;
+}
+
+.options-container > button:nth-child(3) {
+    animation: fadeInUp 0.4s ease 0.15s both;
+}
+
+.options-container > button:nth-child(4) {
+    animation: fadeInUp 0.4s ease 0.2s both;
+}
+
+.options-container > button:nth-child(5) {
+    animation: fadeInUp 0.4s ease 0.25s both;
+}
+
+/* Indicador de progreso */
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #e5e7eb;
+    border-radius: 2px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%);
+    border-radius: 2px;
+    animation: fadeInUp 0.6s ease;
+}

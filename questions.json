@@ -1,0 +1,552 @@
+[
+  {
+    "text": "¿Cuál es el principal problema que aborda la tesis en relación con la gestión de citas en un consultorio odontológico en Arequipa?",
+    "options": [
+      "La falta de personal odontológico",
+      "La gestión manual ineficiente de citas",
+      "La baja calidad de los materiales odontológicos",
+      "La ausencia de tecnologías digitales en general",
+      "La mala atención al cliente"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué solución tecnológica propone la tesis para mejorar la gestión de citas?",
+    "options": [
+      "Un sistema manual avanzado",
+      "Una aplicación móvil para pacientes",
+      "Un sistema informático automatizado con aprendizaje automático",
+      "Una red de telefonía más eficiente",
+      "Capacitación en gestión manual"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es la función del módulo de recomendaciones en el sistema propuesto?",
+    "options": [
+      "Enviar recordatorios por SMS",
+      "Asignar el personal odontológico adecuado",
+      "Sugerir horarios óptimos de citas según patrones",
+      "Gestionar el inventario de materiales",
+      "Almacenar la historia clínica del paciente"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué técnicas de inteligencia artificial se utilizan en el sistema para mejorar la gestión de citas?",
+    "options": [
+      "Redes neuronales convolucionales",
+      "Máquinas de soporte vectorial y árboles de decisión",
+      "Algoritmos genéticos",
+      "Lógica difusa",
+      "Reconocimiento de voz"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué beneficios busca la tesis mejorar en la percepción del consultorio odontológico mediante la automatización?",
+    "options": [
+      "Reducir costos de materiales",
+      "Aumentar la producción de servicios odontológicos",
+      "Mejorar la imagen profesional y la satisfacción del paciente",
+      "Incrementar la cantidad de pacientes sin mejorar la calidad",
+      "Disminuir el uso de tecnología"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué tipos de usuarios están contemplados en el sistema de gestión de citas de la tesis?",
+    "options": [
+      "Sólo pacientes",
+      "Sólo personal administrativo",
+      "Pacientes, personal administrativo y odontólogos",
+      "Sólo el personal médico",
+      "Sólo los administradores del sistema"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es uno de los principales beneficios esperados al implementar el sistema propuesto en el consultorio?",
+    "options": [
+      "Incrementar el número de sesiones por día",
+      "Automatizar tareas administrativas, reducir errores y agilizar procesos",
+      "Reducir la cantidad de personal necesario",
+      "Eliminar completamente las llamadas telefónicas",
+      "Aumentar los precios de los servicios odontológicos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué restricciones o limitantes señala la tesis respecto a la implementación del sistema?",
+    "options": [
+      "Necesidad de infraestructura tecnológica adecuada y conectividad a internet",
+      "Capacitación exclusiva para personal técnico en odontología",
+      "Requiere que todos los pacientes tengan smartphones",
+      "Solo funciona en hospitales públicos",
+      "No tiene restricciones, solo beneficios"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "text": "¿Qué conjunto de datos externos se utilizó para evaluar y validar el modelo del sistema?",
+    "options": [
+      "Datos internos del consultorio solo",
+      "Una base de datos del Ministerio de Salud de Perú",
+      "El conjunto de datos 'No-Show Appointments' de Kaggle, con registros de Brasil",
+      "Datos de encuestas realizadas en Arequipa",
+      "Información de redes sociales"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál fue el framework de desarrollo web utilizado para implementar el sistema?",
+    "options": [
+      "Django",
+      "Spring Boot",
+      "Flask",
+      "Laravel",
+      "Ruby on Rails"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué metodología ágil se utilizó para la gestión del desarrollo del software?",
+    "options": [
+      "Kanban",
+      "XP (Extreme Programming)",
+      "SCRUM",
+      "RUP",
+      "Cascada"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué metodología de ciencia de datos fue aplicada para desarrollar el módulo de recomendaciones?",
+    "options": [
+      "SEMMA",
+      "KDD",
+      "CRISP-DM",
+      "TDSP",
+      "Agile Data Science"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuántos registros contiene el dataset externo de Kaggle utilizado para la validación del modelo?",
+    "options": [
+      "10.000",
+      "50.000",
+      "110.527",
+      "200.000",
+      "500.000"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Por qué se eligieron los árboles de decisión como algoritmo principal en el módulo de recomendaciones?",
+    "options": [
+      "Por ser el algoritmo más moderno disponible",
+      "Por su alto costo computacional que garantiza mayor precisión",
+      "Por su interpretabilidad, rendimiento y adecuación al contexto operativo del consultorio",
+      "Porque es el único compatible con Flask",
+      "Porque requiere menos datos de entrenamiento que otros modelos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál fue el accuracy (precisión global) obtenido por el modelo de aprendizaje automático en la validación local?",
+    "options": [
+      "65%",
+      "75%",
+      "87%",
+      "95%",
+      "99%"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál fue el valor del F1 score obtenido por el modelo de recomendaciones?",
+    "options": [
+      "70%",
+      "78%",
+      "86%",
+      "92%",
+      "97%"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿En cuánto se redujo el tiempo promedio de verificación y asignación de citas tras implementar el sistema?",
+    "options": [
+      "De 20 minutos a 10 minutos",
+      "De 9.2 minutos a 2.4 minutos",
+      "De 15 minutos a 5 minutos",
+      "De 30 minutos a 10 minutos",
+      "De 5 minutos a 1 minuto"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué porcentaje de optimización representó la reducción del tiempo de asignación de citas?",
+    "options": [
+      "45%",
+      "60%",
+      "73.9%",
+      "85%",
+      "90%"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cómo cambió la satisfacción de los pacientes antes y después de implementar el sistema?",
+    "options": [
+      "Del 10% al 50%",
+      "Del 39% al 78%",
+      "Del 50% al 90%",
+      "Del 60% al 95%",
+      "Del 20% al 70%"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cómo cambió la percepción de profesionalismo del consultorio tras la implementación del sistema?",
+    "options": [
+      "Del 10% al 50%",
+      "Del 39% al 78%",
+      "Del 29% al 81%",
+      "Del 50% al 90%",
+      "Del 60% al 95%"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es la variable de entrada del módulo de recomendaciones que se construye mediante análisis de texto del campo 'motivo de consulta'?",
+    "options": [
+      "Disponibilidad operativa",
+      "Historial de asistencia",
+      "Nivel de urgencia",
+      "Tipo de procedimiento",
+      "Frecuencia de visitas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿En qué escala numérica se expresa el nivel de urgencia calculado por el sistema?",
+    "options": [
+      "Del 0 al 5",
+      "Del 1 al 10",
+      "Del 0 al 100",
+      "Del 1 al 5",
+      "Del 0 al 3"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué variable del módulo de recomendaciones analiza horarios disponibles, franjas saturadas y carga operativa del odontólogo?",
+    "options": [
+      "Nivel de urgencia",
+      "Historial de asistencia",
+      "Disponibilidad operativa",
+      "Tipo de procedimiento",
+      "Frecuencia de cancelaciones"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué técnica estadística se aplicó para comparar si las diferencias antes y después del sistema eran significativas?",
+    "options": [
+      "Prueba Chi-cuadrado",
+      "ANOVA",
+      "Prueba t de Student",
+      "Regresión lineal",
+      "Prueba de Wilcoxon"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué lenguaje de programación se utilizó para el análisis estadístico y procesamiento de datos del estudio?",
+    "options": [
+      "R",
+      "Java",
+      "MATLAB",
+      "Python",
+      "Julia"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "text": "¿Cuáles son las bibliotecas de Python mencionadas en la tesis para el análisis estadístico?",
+    "options": [
+      "TensorFlow, Keras y PyTorch",
+      "Django, SQLAlchemy y Celery",
+      "Pandas, scipy, statsmodels y matplotlib",
+      "NumPy, OpenCV y Seaborn",
+      "Scikit-learn, XGBoost y LightGBM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es el tipo y nivel de investigación empleado en la tesis según el marco metodológico?",
+    "options": [
+      "Investigación básica y exploratoria",
+      "Investigación aplicada con nivel descriptivo y experimental",
+      "Investigación bibliográfica y correlacional",
+      "Investigación cuantitativa únicamente",
+      "Investigación cualitativa y fenomenológica"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál de los siguientes algoritmos fue explorado durante la fase de modelado pero NO fue el seleccionado finalmente?",
+    "options": [
+      "Árbol de decisión",
+      "Regresión logística",
+      "K-Nearest Neighbors",
+      "Random Forest",
+      "Gradient Boosting"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué técnica se aplica en el árbol de decisión para evitar el sobreajuste (overfitting)?",
+    "options": [
+      "Aumento de datos (data augmentation)",
+      "Poda de ramas y validación cruzada",
+      "Reducción de dimensionalidad",
+      "Normalización de variables",
+      "Eliminación de outliers"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál de las siguientes opciones describe correctamente la variable 'Historial de Asistencia' utilizada en el módulo de recomendaciones?",
+    "options": [
+      "Registra la cantidad de dientes tratados por paciente",
+      "Mide el tiempo promedio de espera en sala",
+      "Registra frecuencia de cancelaciones, reprogramaciones y puntualidad del paciente",
+      "Almacena las preferencias de horario del paciente",
+      "Contiene el diagnóstico clínico del odontólogo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué tecnología de contenedores se menciona en las bases teóricas de la tesis para el despliegue del sistema?",
+    "options": [
+      "Kubernetes",
+      "Vagrant",
+      "Docker",
+      "VirtualBox",
+      "Heroku"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué base de datos relacional se utilizó en el sistema desarrollado?",
+    "options": [
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite",
+      "MySQL",
+      "Oracle"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "text": "¿Cuál es la precisión (precision) del modelo de recomendaciones obtenida durante la validación?",
+    "options": [
+      "75%",
+      "84%",
+      "87%",
+      "89%",
+      "92%"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "text": "¿Cuál es el recall del modelo de recomendaciones obtenido durante la validación?",
+    "options": [
+      "70%",
+      "78%",
+      "84%",
+      "89%",
+      "95%"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué precisión global alcanzó el motor de segmentación al aplicarse al dataset externo de Kaggle?",
+    "options": [
+      "80%",
+      "87%",
+      "91%",
+      "99.5%",
+      "95%"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "text": "¿Cuántos sprints contempló el plan de desarrollo del proyecto según el framework SCRUM?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál de los siguientes módulos funcionales forma parte del sistema desarrollado?",
+    "options": [
+      "Módulo de facturación electrónica",
+      "Módulo de telemedicina",
+      "Módulo de recomendaciones automatizadas de citas",
+      "Módulo de gestión de inventario",
+      "Módulo de análisis de radiografías"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuánto aumentó la confianza del personal administrativo en la exactitud de las recomendaciones tras implementar el sistema?",
+    "options": [
+      "Del 30% al 60%",
+      "Del 40% al 70%",
+      "Del 60% al 90%",
+      "Del 50% al 80%",
+      "Del 70% al 95%"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué funcionalidad específica del sistema evita que se registren citas duplicadas en el mismo horario con el mismo doctor?",
+    "options": [
+      "Sistema de notificaciones por correo electrónico",
+      "Validación en tiempo real de disponibilidad con mensaje de error amigable",
+      "Lista de espera automática",
+      "Bloqueo manual de horarios por el administrador",
+      "Confirmación por SMS al paciente"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué aspecto de calidad de software fue evaluado midiendo la facilidad de aprendizaje y satisfacción de los usuarios con la plataforma?",
+    "options": [
+      "Fiabilidad",
+      "Seguridad",
+      "Usabilidad",
+      "Mantenibilidad",
+      "Portabilidad"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué componente del sistema permite visualizar gráficamente la frontera de decisión del modelo de IA para fines de transparencia y auditoría?",
+    "options": [
+      "El módulo de reportes estadísticos",
+      "El módulo de gestión de usuarios",
+      "El panel administrativo con gráficos de dispersión del modelo",
+      "El historial clínico del paciente",
+      "El calendario de disponibilidad del doctor"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuáles fueron las tres categorías de prioridad definidas por el modelo de clasificación para las citas?",
+    "options": [
+      "Urgente, normal y opcional",
+      "Alta, media y baja prioridad",
+      "Emergencia, seguimiento y rutina",
+      "Inmediata, programada y postergada",
+      "Crítica, moderada y leve"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál es una de las líneas de trabajo futuro propuestas en la tesis?",
+    "options": [
+      "Reemplazar el sistema por gestión telefónica",
+      "Desarrollar un módulo de predicción de inasistencias a citas",
+      "Eliminar el módulo de recomendaciones para simplificar el sistema",
+      "Migrar el sistema a un lenguaje de programación diferente",
+      "Reducir el número de usuarios del sistema"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué ventaja metodológica ofrece la combinación de CRISP-DM y SCRUM en la tesis?",
+    "options": [
+      "Reduce el costo del hardware necesario",
+      "Elimina la necesidad de pruebas de software",
+      "CRISP-DM estructura el análisis de datos y SCRUM adapta el desarrollo con iteraciones y retroalimentación continua",
+      "Permite prescindir de la participación del cliente durante el desarrollo",
+      "Garantiza que el sistema sea compatible con todos los navegadores"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es la limitación principal reconocida en la tesis respecto al alcance del estudio?",
+    "options": [
+      "El modelo no puede procesar datos numéricos",
+      "El sistema solo funciona con conexión a internet de alta velocidad",
+      "La implementación se realizó en un único consultorio, limitando la diversidad de patrones clínicos",
+      "El sistema no fue probado con usuarios reales",
+      "La tesis no cuenta con marco teórico suficiente"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué instrumento fue utilizado para recopilar datos sobre la satisfacción de los pacientes antes y después de la implementación del sistema?",
+    "options": [
+      "Entrevistas semiestructuradas a odontólogos",
+      "Análisis de registros clínicos automáticos",
+      "Encuestas aplicadas a pacientes",
+      "Observación directa sin instrumento formal",
+      "Grupos focales con el personal administrativo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Cuál es el requisito funcional de alta prioridad RR-01 del módulo de recomendaciones?",
+    "options": [
+      "El sistema debe permitir cancelar citas desde el panel del paciente",
+      "El sistema debe generar recomendaciones de citas en base a urgencia (1-10) y disponibilidad (1-10) usando un árbol de decisión",
+      "El sistema debe enviar confirmaciones automáticas por correo electrónico",
+      "El sistema debe mostrar el historial completo de citas del odontólogo",
+      "El sistema debe registrar el motivo de cancelación de cada cita"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cómo se denominó en la tesis la variable creada para consolidar datos del dataset externo de Kaggle (edad, hipertensión, diabetes, alcoholismo)?",
+    "options": [
+      "Índice de urgencia clínica",
+      "Nivel de riesgo",
+      "Score de salud general",
+      "Variable de vulnerabilidad demográfica",
+      "Indicador de asistencia esperada"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál de las siguientes afirmaciones describe correctamente el requisito funcional RC-04 del sistema?",
+    "options": [
+      "El sistema debe cancelar automáticamente citas con más de 48 horas de anticipación",
+      "El sistema debe asignar el odontólogo disponible con menor carga de trabajo",
+      "El sistema debe mostrar la disponibilidad de horarios en tiempo real",
+      "El sistema debe enviar alertas cuando un paciente no se registra a tiempo",
+      "El sistema debe generar un reporte mensual de citas atendidas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "¿Qué tipo de sistema de recomendación híbrido describe la tesis para combinar reglas de negocio con similitud de contenido?",
+    "options": [
+      "Un sistema basado exclusivamente en filtrado colaborativo entre pacientes",
+      "Un sistema que combina filtros de reglas operativas con similitud contenido-a-contenido ponderando historial, preferencias y urgencia",
+      "Un sistema que solo utiliza redes neuronales profundas sin reglas de negocio",
+      "Un sistema que recomienda basándose únicamente en las valoraciones de otros pacientes",
+      "Un sistema basado en lógica difusa sin componente de aprendizaje automático"
+    ],
+    "correctAnswer": 1
+  }
+]
