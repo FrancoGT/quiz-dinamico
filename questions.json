@@ -713,5 +713,346 @@
       "Para aumentar la velocidad de internet"
     ],
     "correctAnswer": 1
+  },
+  {
+    "text": "El portal de trámites de la Municipalidad se cae y los ciudadanos no pueden realizar gestiones en línea durante horas. ¿Qué pilar de la tríada CIA se ve afectado principalmente?",
+    "options": [
+      "Confidencialidad",
+      "Integridad",
+      "Disponibilidad",
+      "Autenticación",
+      "Trazabilidad"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "Se filtran y publican los datos personales de los contribuyentes almacenados en una base de datos municipal. ¿Qué pilar de la tríada CIA se rompió?",
+    "options": [
+      "Disponibilidad",
+      "Integridad",
+      "Confidencialidad",
+      "Autenticación",
+      "Ninguno"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "En el ataque de 2025, un grupo tomó el control del portal (defacement) y además expuso documentos internos. ¿Qué dos pilares de la tríada CIA se vieron comprometidos?",
+    "options": [
+      "Disponibilidad e Integridad",
+      "Confidencialidad (fuga) e Integridad (sitio alterado)",
+      "Solo Disponibilidad",
+      "Autenticación y Trazabilidad",
+      "Confidencialidad y Disponibilidad"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Según el curso, ¿cómo se define 'hacking' de forma neutral?",
+    "options": [
+      "Toda actividad ilegal en internet",
+      "Analizar, explorar y manipular sistemas y redes; no todo hacking es malicioso",
+      "Robar información de una empresa",
+      "Crear virus informáticos",
+      "Instalar software pirata"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Un hacker ético y un ciberdelincuente pueden usar Nmap y Metasploit por igual. Entonces, ¿qué los diferencia realmente?",
+    "options": [
+      "El sistema operativo que usan",
+      "La autorización y la intención",
+      "La marca de la computadora",
+      "El idioma de las herramientas",
+      "La velocidad de su conexión"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "En el equipo de seguridad, ¿qué rol cumple el 'Blue Team'?",
+    "options": [
+      "Simula al atacante para encontrar fallas",
+      "Es el equipo que defiende los sistemas",
+      "Audita el presupuesto del área",
+      "Redacta las leyes de delitos informáticos",
+      "Vende software antivirus"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "El 'pentesting' (penetration testing) es otro nombre para referirse a:",
+    "options": [
+      "Un tipo de malware",
+      "El hacking ético: usar técnicas de atacante con permiso y para proteger",
+      "Un lenguaje de programación",
+      "Un antivirus corporativo",
+      "Una ley de protección de datos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "En un contrato de pentesting, ¿qué define el 'alcance' (scope)?",
+    "options": [
+      "El sueldo del auditor",
+      "Qué sistemas, IPs o aplicaciones se pueden probar y cuáles NO",
+      "El color del informe final",
+      "La marca de las herramientas a usar",
+      "El número de empleados de la empresa"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Dentro de las reglas de engagement, ¿qué es la 'ventana de tiempo'?",
+    "options": [
+      "El tiempo máximo que puede durar una contraseña",
+      "Las fechas y horas en que está permitido realizar las pruebas",
+      "El plazo para pagar al auditor",
+      "La duración de la sesión de un usuario",
+      "El tiempo de vida de un certificado SSL"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Durante una prueba autorizada, el auditor descubre que podría dejar fuera de servicio un sistema en producción. ¿Qué hace un profesional de mínimo impacto?",
+    "options": [
+      "Lo tumba para demostrar el riesgo con contundencia",
+      "No interrumpe el servicio: documenta la falla y se detiene sin causar daño",
+      "Avisa al atacante original",
+      "Borra los logs para no ser detectado",
+      "Extrae toda la base de datos como evidencia"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál es la relación entre seguridad de la información y ciberseguridad?",
+    "options": [
+      "Son exactamente lo mismo",
+      "La ciberseguridad es una parte, con énfasis en lo digital, dentro de la seguridad de la información",
+      "La seguridad de la información solo cubre lo digital",
+      "La ciberseguridad es más amplia e incluye el papel físico",
+      "No tienen ninguna relación"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "A diferencia de la ciberseguridad, la seguridad de la información también protege:",
+    "options": [
+      "Únicamente servidores en la nube",
+      "La información en formato físico, como el papel y los archivos impresos",
+      "Solo las redes inalámbricas",
+      "Exclusivamente las bases de datos",
+      "Solo los dispositivos móviles"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué significa que 'la información es un activo'?",
+    "options": [
+      "Que siempre vale lo mismo sin importar su contenido",
+      "Que vive en muchos lugares y debe clasificarse y protegerse según su sensibilidad",
+      "Que solo importa si está en papel",
+      "Que no necesita protección si es pública",
+      "Que pertenece siempre al área de TI"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Antes del ataque, cualquiera podía ver en la web pública qué tecnología usaba el portal y qué correos institucionales existían. ¿A qué fase del ataque corresponde reunir esa información?",
+    "options": [
+      "Explotación",
+      "Reconocimiento",
+      "Post-explotación",
+      "Borrado de huellas",
+      "Escalada de privilegios"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál es considerada la fase más ruidosa y peligrosa de un ciberataque, donde se usa un exploit contra una falla?",
+    "options": [
+      "Reconocimiento",
+      "Escaneo y enumeración",
+      "Explotación",
+      "Borrado de huellas",
+      "Footprinting"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "text": "Tras conseguir acceso, el atacante se mueve hacia otros sistemas de la red e instala una puerta trasera. ¿En qué fase ocurre esto?",
+    "options": [
+      "Reconocimiento",
+      "Escaneo",
+      "Explotación",
+      "Post-explotación",
+      "Reconocimiento pasivo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "text": "En la fase de Escaneo y enumeración, a diferencia del Reconocimiento, ocurre que:",
+    "options": [
+      "No se toca el objetivo en absoluto",
+      "Ya se tocan los sistemas y se generan registros (logs): es detectable",
+      "Se borran las huellas del atacante",
+      "Se redacta el informe final",
+      "Se solicita autorización por escrito"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Como contramedida (lado defensa) de la fase de Reconocimiento, lo recomendable es:",
+    "options": [
+      "Apagar todos los servidores",
+      "Minimizar la información pública expuesta y cuidar lo que se publica",
+      "Instalar más puertos abiertos",
+      "Compartir las credenciales con el equipo",
+      "Desactivar los logs"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál es la contramedida defensiva adecuada frente a la fase de Escaneo?",
+    "options": [
+      "Publicar la versión exacta del software",
+      "Firewall bien configurado; cerrar puertos y servicios innecesarios",
+      "Dar privilegios de administrador a todos",
+      "Eliminar las copias de seguridad",
+      "Usar contraseñas cortas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Para defenderse de la fase de Explotación, el material recomienda:",
+    "options": [
+      "Abrir todos los puertos del firewall",
+      "Actualizar y parchear a tiempo, usar contraseñas fuertes y validar las entradas web",
+      "Deshabilitar el antivirus",
+      "Compartir la red con terceros",
+      "No registrar ningún evento"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Como contramedida frente a la Post-explotación, se aconseja:",
+    "options": [
+      "Dar máximos privilegios a cada usuario",
+      "Aplicar mínimos privilegios, segmentar la red y detectar accesos raros",
+      "Unificar todas las cuentas en una sola",
+      "Desactivar el monitoreo",
+      "Eliminar la segmentación de red"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Por qué los logs (registros) son tan valiosos para la defensa, y por eso el atacante intenta borrarlos?",
+    "options": [
+      "Porque aceleran la red",
+      "Porque permiten la investigación forense para saber cómo entró el atacante",
+      "Porque cifran los datos automáticamente",
+      "Porque reemplazan al firewall",
+      "Porque instalan parches solos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Por qué se practica en un laboratorio (Kali + DVWA + red aislada) en lugar de en sistemas reales?",
+    "options": [
+      "Porque es más rápido que internet",
+      "Porque es legal, seguro y se puede repetir las veces que se quiera",
+      "Porque es obligatorio por contrato",
+      "Porque no requiere computadora",
+      "Porque permite atacar producción sin permiso"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "En el laboratorio básico de práctica, ¿qué papel cumple Kali Linux?",
+    "options": [
+      "Es la máquina víctima vulnerable",
+      "Es la máquina atacante con las herramientas de seguridad",
+      "Es el firewall de la red",
+      "Es la base de datos de contribuyentes",
+      "Es la plataforma de pago"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Cuál es la función de una 'red aislada' en el laboratorio?",
+    "options": [
+      "Aumentar la velocidad de internet",
+      "Estar separada de la red real para no afectar ningún sistema ni dato real",
+      "Permitir atacar sistemas de producción",
+      "Conectar con la Municipalidad",
+      "Compartir archivos con otros usuarios"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Entre las plataformas para practicar sin instalar nada, ¿qué caracteriza a PortSwigger (Web Security Academy)?",
+    "options": [
+      "Es un sistema operativo de ataque",
+      "Es gratis y es la mejor para aprender seguridad web",
+      "Es un antivirus de pago",
+      "Es una red social de hackers",
+      "Es una herramienta de cifrado de discos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "Un trabajador recibe un correo que parece del área de sistemas pidiéndole entrar a un enlace para 'actualizar su contraseña'. Ingresa sus credenciales y luego se detecta un acceso inusual. ¿Qué tipo de vulnerabilidad se explotó?",
+    "options": [
+      "Una vulnerabilidad técnica del servidor",
+      "La vulnerabilidad humana (factor humano / ingeniería social)",
+      "Una falla del firewall",
+      "Un error de la base de datos",
+      "Una mala configuración de DNS"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "En el caso del correo falso de 'sistemas' que robó credenciales, ¿qué medidas lo habrían evitado?",
+    "options": [
+      "Comprar más servidores",
+      "Capacitación, doble factor (MFA), filtros de correo y verificar enlaces",
+      "Bajar la velocidad de la red",
+      "Publicar más datos en la web",
+      "Eliminar los antivirus"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "De los principios que todo profesional respeta, ¿cuáles dos se consideran 'la base de todo lo demás'?",
+    "options": [
+      "Confidencialidad e integridad",
+      "Autorización y legalidad",
+      "Velocidad y sigilo",
+      "Impacto y documentación",
+      "Reconocimiento y escaneo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Por qué el informe final debe poder entenderlo tanto el personal técnico como los jefes (no técnicos)?",
+    "options": [
+      "Para cumplir un requisito estético",
+      "Porque el trabajo solo tiene valor si sirve para corregir las fallas",
+      "Porque así se cobra más",
+      "Porque lo exige la Ley 30096",
+      "Porque reemplaza a la evidencia"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "text": "¿Qué es, en esencia, un ciberataque según el material?",
+    "options": [
+      "Un error accidental de un usuario",
+      "Una acción deliberada que busca comprometer sistemas, redes, dispositivos, cuentas o información por medios digitales",
+      "Una actualización de software",
+      "Una copia de seguridad fallida",
+      "Un corte de energía eléctrica"
+    ],
+    "correctAnswer": 1
   }
 ]
